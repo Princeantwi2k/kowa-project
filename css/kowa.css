@@ -1,0 +1,81 @@
+.container{
+	width: 100%;
+	background-image: url(image/gt.jpg);
+	background-blend-mode: overlay;
+	background-color: brown;
+height: 100%;
+}
+.kojo{
+	height:200px;
+	width: 100%; 
+	text-align: center;
+}
+ul{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 30px;
+	align-items: center;
+
+}
+li{
+	list-style: none; 
+	margin-right: 15px;
+	
+	font-size: 3rem;
+}
+li.active{
+	border: 2px solid orange;
+}
+li:hover{
+	border: 2px solid orange;
+    color: orange;
+    text-decoration: none;
+}
+.nav-img{
+	height: 100px;
+	width:200px;
+}
+.navbar-jo {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+   background-color:transparent;
+   border-radius: none;
+   border: 0;
+ }
+.dede{
+	color: orange;
+
+}
+h2{
+	text-align: center;
+	color: white;
+}
+p{
+	text-align: center;
+	color: white;
+}
+.see{
+	text-align: center;
+
+}
+.ck{
+	margin-top: 100px;
+	height: 377px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top:15px solid white;
+	height: 80px;
+	width: 100%;
+	background-color: brown;
+	color: white;
+	padding: 0 50px;
+}
+
+.obed{
+	color: lightblue;
+	padding: 10px;
+}
